@@ -1,6 +1,8 @@
 import bpy
 
+#RENAME "Hilt" to the name of whatever object is at the bottom of the sword handle
 bottomEmpty = bpy.data.objects["Hilt"]
+#RENAME "top" to the name of whatever object is at the top of the sword handle
 topEmpty = bpy.data.objects["top"]
 #bpy.ops.object.empty_add(type='PLAIN_AXES')
 #add the armature wheere the top is
