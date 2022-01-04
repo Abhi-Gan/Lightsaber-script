@@ -9,7 +9,7 @@ ob = bpy.context.active_object
 ob.name = 'handle'
 bpy.ops.object.editmode_toggle()
 
-*snap selected no work
+#snap selected no work
 handle=ob
 bone = handle.data.edit_bones["Bone"]
 bone.tail.x = bottomEmpty.location.x - topEmpty.location.x
